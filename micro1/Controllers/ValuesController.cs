@@ -12,8 +12,9 @@ namespace micro1.Controllers
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
+
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value12", "value12" };
         }
 
         // GET api/values/5
